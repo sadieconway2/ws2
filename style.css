@@ -19,18 +19,20 @@
 
     }
  h1 {
-    color: navy;
+    color: rgb(18, 196, 145);
     font-family: 'SeafordBold';
     text-align: center;
+      font-size: 40px;
+    }
   }
 
   h2 {
     font-family: SeafordRg;
-    color: navy;
+    color: red;
 }
 
   p.myP{
-    color: brown;
+    color: rgb(4, 20, 110);
     text-align: justify;
    text-justify: inter-word;
   }
@@ -84,6 +86,8 @@ ol li {
   #mytable td, #mytable th {
     border: 1px solid #ddd;
     padding: 8px;
+    text-align: center;
+
   }
   
   #mytable tr:nth-child(even){background-color: #f2f2f2;}
@@ -93,7 +97,7 @@ ol li {
   #mytable th {
     padding-top: 12px;
     padding-bottom: 12px;
-    text-align: left;
+    text-align: center;
     background-color: grey;
     color: white;
   }
